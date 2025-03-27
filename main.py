@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 
 def main():
     st.set_page_config(page_title="Corsant", page_icon="📦", layout="wide")
-    st.image("./images/logo_corsant.png", use_container_width=True)
+    st.image("./images/logo_corsant.png", use_container_width=False)
     st.title("Welcome to Corsant!")
     st.write("Discover our amazing products.")
     
