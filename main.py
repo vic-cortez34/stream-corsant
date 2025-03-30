@@ -7,6 +7,9 @@ def main():
     st.image("./images/wmremove-transformed.png", use_container_width=False)
     st.title("Welcome to Corsant!")
     st.write("Discover our amazing products.")
+
+
+    #TEST
     
     # Sidebar Navigation with Styling
     with st.sidebar:
