@@ -31,7 +31,7 @@ def show_products():
     products = {
         "Corsant colposcopy software": {
             "description": "Visualization of colposcopy studies and report pdf generation",
-            "download": "https://drive.google.com/file/d/1Cs6FIYJe6wzQHWbnnE4Z6KImI1ogpPUe/view?usp=sharing"
+            "download": "https://drive.google.com/uc?export=download&id=1AEG4gVJm3A701bKEFZ-sfVNoBVZEVBE1"
         },
     }
     
