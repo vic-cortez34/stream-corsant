@@ -5,8 +5,8 @@ from streamlit_option_menu import option_menu
 def main():
     st.set_page_config(page_title="Corsant", page_icon="📦", layout="wide")
     st.image("./images/wmremove-transformed.png", use_container_width=False)
-    st.title("Welcome to Corsant!")
-    st.write("Discover our amazing products.")
+    st.title("Bienvenido a Corsant!")
+    st.write("Descubre nuestros productos.")
 
 
     #TEST
@@ -15,13 +15,13 @@ def main():
     with st.sidebar:
         page = option_menu(
             menu_title="Menu",
-            options = ["Home", "Products"],
+            options = ["Inicio", "Productos"],
             default_index=0
         )
     
     if page == "Home":
-        st.header("About Corsant")
-        st.write("Corsant is a health technology startup dedicated to design solutions for the future of medicine")
+        st.header("Sobre Corsant")
+        st.write("Corsant es un startup de tecnología médica dedicada al diseño de soluciones para el futuro de la medicina")
     
     elif page == "Products":
         show_products()
